@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-## Kernel
-TARGET_KERNEL_VARIANT_CONFIG := aml_tab_variant_defconfig
-
 include device/bananapi/m5/BoardConfig.mk
+
+## Kernel
+TARGET_KERNEL_CONFIG += aml_tab.config
